@@ -102,18 +102,18 @@ class scrape_tweets_full_archive:
 		Returns a dataframe for one query list with clean tweets.
 		Parameters:
 		---------------
-        environment_name : str
-            environment name created in Twitter account. **Ask ADMIN**
-		query : str,
-			List of queries
-		fromDate :  str
-			Date from or after: 200603210000 (March 2006) .
-            Format -> yyyymmdd0000
-		toDate : str
-			Date frrom or after: 200603210000 .
-            Format : yyyymmdd0000
-        maxResults : int
-            Permitted values between 10-500. Default 500.
+		environment_name : str
+		    environment name created in Twitter account. **Ask ADMIN**
+			query : str,
+				List of queries
+			fromDate :  str
+				Date from or after: 200603210000 (March 2006) .
+		    Format -> yyyymmdd0000
+			toDate : str
+				Date frrom or after: 200603210000 .
+		    Format : yyyymmdd0000
+		maxResults : int
+		    Permitted values between 10-500. Default 500.
 		"""
 
 		try:
