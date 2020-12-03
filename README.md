@@ -19,8 +19,8 @@
 ```python
 from cf_tweepy import scrape_tweets_sandbox
 # Authorize
-sand_box = scrape_tweets_sandbox(consumer_key='EcOZufuRLcf1PR2G7CSFkcfGa',
-                                consumer_secret='Z6uScbjgSzuOf0o5wfRGdWsIpeqY1GfAKlhXGwpiv6Xm36uo5Z')
+sand_box = scrape_tweets_sandbox(consumer_key='<key>',
+                                 consumer_secret='<secret>')
 # Params
 query_list = ['Vegan milk', 'Vegan meat']
 count = 1000
@@ -36,8 +36,9 @@ df.head()
 ```python
 from cf_tweepy import scrape_tweets_full_archive
 
-sand_box = scrape_tweets_full_archive(consumer_key='EcOZufuRLcf1PR2G7CSFkcfGa',
-                                consumer_secret='Z6uScbjgSzuOf0o5wfRGdWsIpeqY1GfAKlhXGwpiv6Xm36uo5Z')
+sand_box = scrape_tweets_full_archive(consumer_key='<key>',
+                                      consumer_secret='<secret>')
+                                      
 # Params
 environment_name = 'Discourse'
 query = 'tierhaltungsform'
