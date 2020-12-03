@@ -15,5 +15,37 @@
 
 * Look at the ```cf_tweepy_usage_ipynb``` for usage examples.
 
+## Using the FREE sandbox
+```python
+from cf_tweepy import scrape_tweets_sandbox
+# Authorize
+sand_box = scrape_tweets_sandbox(consumer_key='EcOZufuRLcf1PR2G7CSFkcfGa',
+                                consumer_secret='Z6uScbjgSzuOf0o5wfRGdWsIpeqY1GfAKlhXGwpiv6Xm36uo5Z')
+# Params
+query_list = ['Vegan milk', 'Vegan meat']
+count = 1000
+lang = 'en'
 
+df = sand_box.scrape(query_list,count,lang)
+df.head()
 
+```
+
+## Using the Premium full archive search
+
+```python
+from cf_tweepy import scrape_tweets_full_archive
+
+sand_box = scrape_tweets_full_archive(consumer_key='EcOZufuRLcf1PR2G7CSFkcfGa',
+                                consumer_secret='Z6uScbjgSzuOf0o5wfRGdWsIpeqY1GfAKlhXGwpiv6Xm36uo5Z')
+# Params
+environment_name = 'Discourse'
+query = 'tierhaltungsform'
+fromDate='200603210000'
+toDate = '202011010000'   
+maxResults= 500
+
+df = sand_box.scrape(environment_name, query, fromDate, toDate, maxResults)
+df.head()
+
+```
