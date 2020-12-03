@@ -1,4 +1,4 @@
-# tweepy
+# cf_tweepy
 
 * Using tweepy API in one call. 
 * Supports free 7 day *search* API  (a.k.a sandbox) and *search_full_archive* (premium)
