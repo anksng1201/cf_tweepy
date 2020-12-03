@@ -11,7 +11,7 @@
 # Usage
 * Download the project folder to the working DIR.
 
-* Look at the ```cf_tweepy_usage_ipynb``` for usage examples.
+* Look at the ```cf_tweepy_usage.ipynb``` for usage examples.
 
 ## Using the FREE sandbox
 ```python
