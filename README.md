@@ -6,9 +6,7 @@
 * Just pass the *consumer_secret* and *consumer_key* to authenticate. (See examples)
 
 # Requirements
-* tweepy - 
-
-```pip install tweepy```
+* tweepy -  ```pip install tweepy```
 
 # Usage
 * Download the project folder to the working DIR.
