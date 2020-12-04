@@ -7,7 +7,8 @@
 
 # Requirements
 * tested with Python3.7
-* tweepy -  ```pip install tweepy```
+* tweepy -  ```pip install git+https://github.com/tweepy/tweepy@1a71938e81fbb829fd45bdd06d5798762078b10f```
+
 
 # Usage
 * Download the project folder to the working DIR.
