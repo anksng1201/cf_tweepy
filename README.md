@@ -6,6 +6,7 @@
 * Just pass the *consumer_secret* and *consumer_key* to authenticate. (See examples)
 
 # Requirements
+* tested with Python3.7
 * tweepy -  ```pip install tweepy```
 
 # Usage
